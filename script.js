@@ -23,11 +23,3 @@ setInterval(function(){
     }
 },100)
 
-setInterval(function(){
-    var name = document.getElementById("input_name").value;
-    if(name != ""){
-        document.getElementById("btn_joinwithyourfriend").disabled = false;
-    }else{
-        document.getElementById("btn_joinwithyourfriend").disabled = false;
-    }
-},100)
