@@ -13,7 +13,7 @@
     padding: 50px;
     text-align: center;
     line-height: 50px;
-    border: 1px solid #c5c5c5;
+    border: 1px solid #b6b6b6;
     border-radius: 15px;
 }
 
@@ -23,12 +23,12 @@
     width: 100%;
     height: 40px;
     padding-left: 10px;
-    background-color: #eeeeee;
+    background-color: #e7e7e7;
 }
 
 .box_input button{
     border: none;
-    background-color: aqua;
+    background-color: rgb(0, 209, 209);
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -51,7 +51,7 @@
     color: white;
     width: 100%;
     height: 60px;
-    background-color: aqua;
+    background-color: rgb(0, 209, 209);
 }
 
 .input_box{
@@ -59,7 +59,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(0, 209, 209);
     padding: 10px;
 }
 
