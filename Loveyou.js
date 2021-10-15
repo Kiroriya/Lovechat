@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyAWMTGyI6jUhBaQMsC1sOi8IoIjmHkPgus",
-  authDomain: "lovechat-c7af4.firebaseapp.com",
-  databaseURL: "https://lovechat-c7af4-default-rtdb.firebaseio.com",
-  projectId: "lovechat-c7af4",
-  storageBucket: "lovechat-c7af4.appspot.com",
-  messagingSenderId: "318754307333",
-  appId: "1:318754307333:web:fa5b2be6d205c16a258b6c",
+  apiKey: "AIzaSyAX_XOrt7TiokE2W1YDOPjZfZ55s3j-7z0",
+  authDomain: "anasaki-chat.firebaseapp.com",
+  databaseURL: "https://anasaki-chat-default-rtdb.firebaseio.com",
+  projectId: "anasaki-chat",
+  storageBucket: "anasaki-chat.appspot.com",
+  messagingSenderId: "957858616703",
+  appId: "1:957858616703:web:c341596501193aae82f64a",
   measurementId: "G-XZEWD5XNDR"
 };
 // Initialize Firebase

@@ -1,36 +1,21 @@
-
-
-function createwithfriend(){
-    var pass = document.getElementById("input_pass").value;
-    localStorage.setItem("pass" , pass);
-    window.location.replace("chatwithfriend.html");
-
-
-}
-
 function joinwithfriend(){
-    var pass = document.getElementById("input_pass").value;
+    var pass = document.getElementById("input_password").value;
     localStorage.setItem("pass" , pass);
-    window.location.replace("chatwithfriend.html");
+    if(pass == "22022562"){
+        window.location.replace("Loveyou.html");
+    }else{
+
+    }
 
 
 }
 
 
 setInterval(function(){
-    var pass = document.getElementById("input_pass").value;
+    var pass = document.getElementById("input_password").value;
     if(pass != ""){
-        document.getElementById("btn_createpasswithyourfriend").disabled = false;
+        document.getElementById("btn_joinwithfriend").disabled = false;
     }else{
-        document.getElementById("btn_createpasswithyourfriend").disabled = true;
-    }
-},100)
-
-setInterval(function(){
-    var pass = document.getElementById("input_pass").value;
-    if(pass != ""){
-        document.getElementById("btn_passwithyourfriend").disabled = false;
-    }else{
-        document.getElementById("btn_passwithyourfriend").disabled = true;
+        document.getElementById("btn_joinwithfriend").disabled = true;
     }
 },100)
