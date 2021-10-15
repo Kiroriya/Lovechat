@@ -3,6 +3,8 @@ function joinwithfriend(){
     localStorage.setItem("pass" , pass);
     if(pass == "22022562"){
         window.location.replace("Loveyou.html");
+    }else if(pass == "29072546"){
+        window.location.replace("chatwithfriend.html");
     }else{
 
     }
