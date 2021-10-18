@@ -125,12 +125,20 @@
 
 
 .top_name{
+
+
+    padding: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid #b6b6b6;
+    border-radius: 15px;
+
     margin: 100px auto;
     display: flex;
     align-items: center;
-    padding-left: 650px;
+    
     color: rgb(0, 209, 209);
-    width: 100%;
+    width: 23%;
     height: 100px;
 }
 

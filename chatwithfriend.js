@@ -27,6 +27,7 @@ var firebaseConfig = {
       }
   }
 
+
   function send(){
     var msg = document.getElementById('image_text').value;
     if(msg != ""){
@@ -39,6 +40,8 @@ var firebaseConfig = {
       })
     }
 }
+
+
 
   firebase.database().ref("messages").on("child_added" , function(snapshot){
       var username = snapshot.val().sender;
