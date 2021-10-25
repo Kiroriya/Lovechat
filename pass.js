@@ -5,6 +5,8 @@ function joinwithfriend(){
         window.location.replace("Loveyou.html");
     }else if(pass == "29072546"){
         window.location.replace("chatwithfriend.html");
+    }else if(pass == "29072003"){
+        window.location.replace("newlovechat.html");
     }else{
 
     }
