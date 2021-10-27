@@ -15,13 +15,23 @@ body{
   padding: 0 10px;
 }
 .wrapper{
-  background: rgb(255, 46, 46);
-  max-width: 450px;
+  background: rgb(45, 238, 212);
+  max-width: 300px;
   width: 100%;
   border-radius: 16px;
   box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
               0 32px 64px -48px rgba(0,0,0,0.5);
 }
+
+.wrapper2{
+    background: rgb(174, 255, 187);
+    max-width: 450px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
 
 /* Login & Signup Form CSS Start */
 .form{
@@ -269,7 +279,7 @@ body{
   max-height: 500px;
   overflow-y: auto;
   padding: 10px 30px 20px 30px;
-  background: #ffeeee;
+  background: #ebf1f0;
   box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
               inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
 }
@@ -344,15 +354,15 @@ body{
   border-radius: 5px 0 0 5px;
 }
 .typing-area button{
-  color: rgb(255, 255, 255);
-  width: 55px;
+  color: rgb(133, 199, 168);
+  width: 140px;
   border: none;
   outline: none;
-  background: rgb(255, 108, 108);
-  font-size: 19px;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
   cursor: pointer;
   
-  border-radius: 0 5px 5px 0;
+  border-radius: 5 5px 5px 5;
   transition: all 0.3s ease;
 }
 .typing-area button.active{
@@ -447,7 +457,7 @@ body{
 }
 
 .msg_user{
-    background-color: rgb(255, 110, 110);
+    background-color: rgb(110, 255, 236);
     width: max-content;
     max-width: 70%;
     padding: 10px;
@@ -462,4 +472,32 @@ body{
     width: 15%;
     height: 40px;
     border-radius: 5px;
+}
+
+.box_input{
+  background: #bdf0d6;
+  width: 300px;
+  height: 150px;
+
+  padding: 25px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+.box_input input{
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  background-color: #e7e7e7;
+}
+
+.box_input button{
+  border: none;
+  background-color: rgb(0, 209, 209);
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
 }
