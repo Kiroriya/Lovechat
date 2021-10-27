@@ -9,7 +9,7 @@ function login(){
 function loginwithfriend(){
     var name = document.getElementById("input_name").value;
     localStorage.setItem("name" , name);
-    window.location.replace("pass.html");
+    window.location.replace("passnew.html");
 
 
 }
