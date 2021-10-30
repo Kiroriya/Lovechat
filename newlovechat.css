@@ -15,11 +15,11 @@ body{
   padding: 0 10px;
 }
 .wrapper{
-  background: rgb(45, 238, 212);
+  background: rgb(180, 247, 222);
   max-width: 450px;
   width: 100%;
   border-radius: 16px;
-  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+  box-shadow: 0 0 128px 0 rgba(255, 0, 0, 0.1),
               0 32px 64px -48px rgba(0,0,0,0.5);
 }
 
