@@ -448,6 +448,7 @@ body{
 
 .msg_user{
     background-color: rgb(110, 255, 236);
+    color: rgba(0, 0, 0, 0.747);
     width: max-content;
     max-width: 70%;
     padding: 10px;
